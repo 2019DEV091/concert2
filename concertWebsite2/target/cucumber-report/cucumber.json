@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-03T08:43:02.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6452551000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Adding a concert",
+        "description": "",
+        "id": "adding-concerts;adding-a-concert",
+        "after": [
+          {
+            "result": {
+              "duration": 713911100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a concert organizer",
+            "match": {
+              "location": "StepDefs.a_concert_organizer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145801,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the organizer adds a concert named \"Metallica goes Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Metallica goes Cucumber\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefs.the_organizer_adds_a_concert_named(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1419399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the organizer will see \"Metallica goes Cucumber\" listed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Metallica goes Cucumber\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefs.the_organizer_will_see_listed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@start"
+          }
+        ]
+      }
+    ],
+    "name": "Adding concerts",
+    "description": "  As a concert organiser\n  I want to be able to add concerts\n  So people interested in my concerts can see them",
+    "id": "adding-concerts",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/concertWebsite/features/Adding_concerts.feature",
+    "tags": []
+  }
+]

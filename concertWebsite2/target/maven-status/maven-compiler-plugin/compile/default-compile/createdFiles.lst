@@ -1,0 +1,6 @@
+concertWebsite\model\Concert.class
+concertWebsite\model\GeoLocation.class
+concertWebsite\model\Airport.class
+concertWebsite\model\ConcertOrganizer.class
+concertWebsite\model\Concerts.class
+concertWebsite\model\Organizer.class
